@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap");
+
+:root {
+  --primaryColor: #f9ebc8;
+  --textcolor: #ce9461;
+
+  --title: 34px;
+  --subtitle: 20px;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  margin: auto;
+  max-width: 980px;
+}
+
+header {
+  display: grid;
+  left: 0;
+  width: 100%;
+}
+
+header .header-container {
+  background: var(--primaryColor);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 65px;
+  padding: 5px 50px;
+}
+
+header .header-container img {
+  width: 60px;
+}
+
+header .header-container .menu {
+  align-items: center;
+  display: flex;
+  height: auto;
+  justify-content: space-evenly;
+  justify-self: end;
+  width: 300px;
+}
+
+.menu a {
+  color: var(--textcolor);
+}
+
+a {
+  display: inline;
+  text-decoration: none;
+}
+
+.main {
+  background-image: url("../assets/scott-webb-hDyO6rr3kqk-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+
+.main section {
+    display: grid;
+    grid-column: 2;
+    height: 350px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.main.title {
+  color: var(--textcolor);
+  font-size: var(--title);
+  font-weight: 700;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.main-subtitle {
+  color: var(--textcolor);
+  font-size: var(--subtitle);
+  text-align: center;
+}
+
+.
