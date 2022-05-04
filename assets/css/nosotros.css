@@ -1,0 +1,46 @@
+.about-main {
+  display: grid;
+}
+
+.about-container {
+  padding: 5% 20% 5%;
+}
+
+.about-main-new {
+  display: grid;
+  justify-content: center;
+  margin: 20px;
+  gap: 20px;
+}
+
+/* Que columna debe tomar */
+.about-img-container {
+  grid-column: 1;
+}
+
+.about-img-container img {
+  width: 220px;
+}
+
+.about-info-container {
+  grid-column: 2;
+}
+
+.about-info-container p {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 790px) { 
+  .about-container {
+    padding: 7%;
+  }
+}
+
+@media (max-width: 490px) { 
+    .about-info-container { 
+        grid-column: 1;
+    }
+}
+
+
+
