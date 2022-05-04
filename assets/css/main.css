@@ -169,7 +169,11 @@ footer .copyright {
     grid-template-columns: 1fr;
   }
 
-  header .header-container .menu{
+  header .header-container .menu {
     gap: 15px;
+  }
+
+  .contact {
+    width: 65%;
   }
 }
