@@ -55,6 +55,11 @@ header .header-container .menu {
   color: var(--textcolor);
 }
 
+.menu a:hover { 
+  color: orange;
+  border-bottom: 1px solid orange;
+}
+
 a {
   display: inline;
   text-decoration: none;
